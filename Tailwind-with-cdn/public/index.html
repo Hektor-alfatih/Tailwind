@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Inter+Tight:ital,wght@1,100&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./output.css">
+    <title>tailwindcss</title>
+</head>
+<!-- <body class="dark:bg-slate-800 dark:text-white"> -->
+    <h1 class="text-7xl">sedang belajar Tailwind css</h1>
+    <p class="text-3xl">sedang belajar Tailwind css</p>
+    <br>
+    <h1 class="text-7xl mb-1">spacing (margin dan padding)</h1>
+    <div class="border-2 border-black my-13">margin</div>
+    <div class="border-2 border-red-900 p-13">padding</div>
+    <span class="border-2 border-blue-900 -ms-13">margin 2</span>
+    <section class="font-inter bg-gradient-to-r from-red-700 to-blue-800">
+        <h2 class="font-bold text-5xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eum!</h2>
+        <p class="italic ">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nihil vitae voluptatum eaque accusantium natus commodi! Eligendi voluptatum enim labore? </p>
+        <p class="text-6xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, aperiam!</p>
+        <p class="text-pondok">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis natus debitis reiciendis amet mollitia doloremque consectetur repudiandae facilis esse ducimus.</p>
+    </section>
+    <hr>
+    <h2 class="text-7xl ">Lorem <span class="bg-gradient-to-r from-green-900 to-yellow-950 bg-clip-text text-transparent">ipsum dolor sit amet consectetur adipisicing elit. Officia,</span> ullam!</h2>
+    <section class="border-2 border-black w-1/4 mx-auto bg-gradient-to-r from-red-700 via-purple-900 to-blue-950">
+        <div class="border-2 border-black w-1/2">Lorem, ipsum.</div>
+        <div class="border-2 border-black" style="width: 80px;">arbitary</div>
+        <div class="border-2 border-black w-[80px]">arbitary2</div>
+        <div class="border-2 border-biru size-14">box size</div>
+        <h1 class="text-biru">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, assumenda.</h1>
+        <p class="text-biru">Loremss ipsum dolor sit amet consectetur adipisicing elit. Officiis odio culpa voluptatem laborum laudantium laboriosam nemo, iusto necessitatibus labore? Distinctio!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dolores.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, corrupti excepturi doloribus voluptates laboriosam consequatur. Repellat nihil eum rem quam!</p>
+    </section>
+    <br>
+    <section>
+        <div class="max-w-xl h-96 bg-[#caf0f8] mt-4 mx-auto overflow-y-scroll bg-local"
+         style="background-image: url('https://source.unsplash.com/1000x600?coding');">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eum modi suscipit sapiente repudiandae debitis nulla id odit inventore cumque? A autem quia id ad, corporis consequatur error omnis eligendi nihil fugit assumenda. Voluptatibus expedita ab ad, soluta sapiente quibusdam possimus alias nemo doloremque laudantium, voluptatum error porro cupiditate officia animi! Autem velit unde ad dolores adipisci alias quaerat. Cum quos perspiciatis totam. Quia odio eius ab incidunt laudantium dolores eos dicta dolorem aliquam quod nam expedita iusto, cum natus facilis facere provident quaerat cupiditate iure velit. Debitis ipsam voluptatem iusto obcaecati deleniti. Nisi tempora laborum, voluptate nihil doloremque quos ut optio blanditiis error sunt asperiores, harum dolores omnis unde pariatur vitae voluptas ipsum. Ullam laudantium eos iure inventore, dolores totam similique minima culpa odio quos eveniet dolor nemo fugiat repellendus corrupti atque laborum, sed quis odit assumenda ea amet. Quaerat ipsam illo, vitae iure consequatur possimus mollitia iusto praesentium omnis at nulla numquam, aperiam labore ipsa qui! Impedit quia a adipisci sunt cupiditate esse aliquid labore soluta ea nulla delectus facilis fuga odio facere excepturi, doloremque similique modi ipsam. Repellat quia recusandae fugiat minima delectus id vitae alias quaerat iure aliquam voluptates repudiandae eos accusantium, deserunt ad nostrum ab ipsum eaque placeat dicta veritatis dolorem! Eum commodi adipisci quis error numquam possimus magnam deleniti ratione, dolorem officia suscipit reiciendis non cum aperiam, voluptates iure tempore nisi esse maxime autem? Eligendi tenetur reiciendis magnam id quam nemo ab at suscipit obcaecati blanditiis exercitationem, nesciunt molestiae, dolorum recusandae aut assumenda veniam.</p>
+        </div>
+    </section>
+    <!-- <section>
+        <div class="grid grid-cols-3 divide-x">
+            <div>01</div>
+            <div>02</div>
+            <div>03</div>
+          </div>
+        <div class="mt-32 max-w-xl mx-auto h-96 bg-contain bg-no-repeat bg-top bg-slate-500 rounded-tl-2xl border-8 border-rose-600 border-dashed ring-8" 
+        style="background-image: url('https://source.unsplash.com/1000x600?coding');">
+        </div>
+
+        <div class="mt-32 max-w-xl mx-auto h-96 bg-contain bg-no-repeat bg-top bg-slate-500 rounded-tl-2xl shadow shadow-red-400 opacity-30" 
+        style="background-image: url('https://source.unsplash.com/1000x600?coding');">
+
+        <div class="mt-32 max-w-xl mx-auto h-96 bg-contain bg-no-repeat bg-top bg-slate-500 rounded-tl-2xl shadow shadow-red-400 overflow-hidden border-8" 
+        style="background-image: url('https://source.unsplash.com/1000x600?coding');">
+        <div class="w-full h-full bg-yellow-300 mix-blend-multiply"></div>
+        </div>
+
+        <div class="mt-32 max-w-xl mx-auto h-96 bg-contain bg-no-repeat bg-top bg-red-300 rounded-tl-2xl shadow shadow-red-400 bg-blend-overlay " 
+        style="background-image: url('https://source.unsplash.com/1000x600?coding');">
+        </div>
+
+        <div class="mt-32 max-w-xl mx-auto h-96 bg-contain bg-no-repeat bg-top bg-red-300 rounded-tl-2xl shadow shadow-red-400 hover:blur-none " 
+        style="background-image: url('https://source.unsplash.com/1000x600?coding');">
+        </div>
+    </section> -->
+    <br>
+    <br>
+    <h1> [TUGAS#33] Basic Utility 1</h1>
+    <div class="w-48 h-36 m-5 p-2.5 bg-[#1a535c]">
+       <p class="text-[#db2777] font-mono">text 1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, maxime.</p> 
+       <p class="text-[#db2777] font-inter">text 2: Lorem ipsum dolor sit amet.</p> 
+    </div>
+
+    <br>
+    <br>
+    <h1>[TUGAS#34] 70. Basic Utility 2</h1>
+    <div class="w-[300px] h-[300px] bg-gradient-to-r from-red-500 to-yellow-600 border-2 border-red-600 border-dashed rounded-full shadow-slate-600 opacity-10">
+        <button class="rounded-lg bg-blue-400 p-[5px]">KIRIM</button>
+    </div>
+    <button class="rounded-lg bg-blue-400 p-[5px]">submit</button>
+    <br>
+    <br>
+
+    <hr class="my-20">
+    <button class="bg-sky-500 rounded-full py-2 px-5 text-white font-semibold font-inter mx-auto hover:bg-sky-700 active:bg-red-600 focus:ring-violet-600">Simpan</button>
+    
+    <div class="max-w-lg border border-slate-200 p-5 shadow-md font-inter mx-auto my-10 ronded-xl hover:bg-red-500 group ">
+        <h5 class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white">My card</h5>
+        <p class="group-hover:text-white selection:bg-purple-400 selection:text-sky-900 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:float-left first-letter:mr-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam deleniti incidunt voluptate, velit possimus aliquid provident nam fugit, quidem rem reprehenderit, voluptates fuga perspiciatis similique nostrum numquam ducimus commodi laboriosam repellendus enim. Accusantium porro sequi necessitatibus dolore labore a vitae saepe animi, omnis iste blanditiis ratione cumque provident distinctio suscipit!</p>
+    </div>
+
+    <div class="max-w-lg border border-slate-200 mx-auto shadow-md rounded-xl font-inter p-5">
+        <form action="">
+            <label for="ini_email">
+                <span class="block font-semibold mb-1 text-slate-700 after:content-['*'] after:text-pink-500">Email</span>
+                <input type="email" id="ini_email" placeholder="Masukan" class="shadow border py-2 px-3 rounded text-sm w-full placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid:text-pink-500 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer">
+                <p class="text-sm text-pink-700 m-1 invisible peer-invalid:visible">Email Tidak valid</p>
+            </label>
+        </form>
+    </div>
+
+    <hr class="my-20">
+    <div class="w-40 h-40 bg-sky-500 mx-auto rounded-xl shadow-lg 
+     hover:bg-green-500 hover:rotate-180 hover:translate-x-16 transition origin-bottom-right">Hamzah</div>
+
+     <div class="w-40 h-40 bg-red-500 mx-auto mt-20 group">
+        <div class="w-full h-full bg-sky-500 rounded-lg shadow-lg group-hover:rotate-180 origin-top-left transition duration-1000 ease-out delay-500"></div>
+     </div>
+
+     <div class="w-40 h-40 bg-cyan-500 mx-auto rounded-full shadow-lg mt-20 animate-ping"></div>
+
+     <div class="w-40 h-40 bg-cyan-500 mx-auto rounded-lg shadow-lg mt-20 animate-spin-slow"></div>
+
+     <div class="w-40 h-40 bg-cyan-500 mx-auto rounded-lg shadow-lg mt-20 animate-abudzar"></div>
+
+
+     <br>
+
+     <h1 class="mt-28"> [TUGAS#35]</h1>
+     <div class="w-40 h-40 bg-sky-500 mx-auto hover:scale-125 rotate-45 hover:translate-y-36 origin-bottom-right hover:bg-red-500 transition duration-500 hover:ease-out hover:delay-[2000ms]"></div>
+
+     <hr class="border-t-4 my-20">
+
+     <div class="container mx-auto">
+        <div class="bg-green-300 rounded-lg shadow-lg p-10 relative">
+            <div class="w-10 h-10 rounded-full bg-pink-400 flex absolute -top-5 -right-5 cursor-pointer">
+                <span class="text m-auto">❌</span>
+            </div>
+            <img src="https://source.unsplash.com/1000x600?coding" alt="" width="150" class="float-left mr-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus minima officia unde libero dolore obcaecati necessitatibus assumenda? Rem soluta blanditiis quae sequi, facere alias ullam ea temporibus, numquam, recusandae nostrum! Nemo deleniti at assumenda commodi libero consequatur harum vero, laudantium officiis explicabo quisquam aliquam, iste nostrum sapiente cum inventore numquam!</p>
+        </div>
+     </div>
+     <div class="container my-10">
+        <div class="bg-green-300 rounded-lg shadow-lg p-10 relative">
+            <div class="w-10 h-10 rounded-full bg-pink-400 flex absolute -top-5 left-1/2 cursor-pointer">
+                <span class="text m-auto">❌</span>
+            </div>
+            <img src="https://source.unsplash.com/1000x600?coding" alt="" width="150" class="float-left mr-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus minima officia unde libero dolore obcaecati necessitatibus assumenda? Rem soluta blanditiis quae sequi, facere alias ullam ea temporibus, numquam, recusandae nostrum! Nemo deleniti at assumenda commodi libero consequatur harum vero, laudantium officiis explicabo quisquam aliquam, iste nostrum sapiente cum inventore numquam!</p>
+        </div>
+     </div>
+     <div class="container my-10">
+        <div class="bg-green-300 rounded-lg shadow-lg p-10 relative">
+            <div class="w-10 h-10 rounded-full bg-pink-400 flex cursor-pointer fixed bottom-0 right-5">
+                <a href="#" class="text-xl m-auto">🔝</a>
+            </div>
+            <img src="https://source.unsplash.com/1000x600?coding" alt="" width="150" class="float-left mr-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus minima officia unde libero dolore obcaecati necessitatibus assumenda? Rem soluta blanditiis quae sequi, facere alias ullam ea temporibus, numquam, recusandae nostrum! Nemo deleniti at assumenda commodi libero consequatur harum vero, laudantium officiis explicabo quisquam aliquam, iste nostrum sapiente cum inventore numquam!</p>
+        </div>
+     </div>
+
+     <hr class="my-20">
+     <div class="container border mx-auto bg-slate-500 rounded-lg shadow-lg p-10 mt-20 columns-2">
+        <img src="https://source.unsplash.com/600x400?keyboard" alt="">
+        <img src="https://source.unsplash.com/600x400?keyboard" alt="">
+        <img src="https://source.unsplash.com/600x400?keyboard" alt="">
+        <img src="https://source.unsplash.com/600x400?keyboard" alt="">
+        <img src="https://source.unsplash.com/600x400?keyboard" alt="">
+        <img src="https://source.unsplash.com/600x400?keyboard" alt="">
+     </div>
+
+     <hr class="my-20 border-t-4">
+     <div class="container font-inter max-w-md mx-auto sm:bg-red-300 md:bg-green-300 lg:bg-blue-200 xl:bg-yellow-500">
+        <h3 class="text-4xl font-bold text-slate-800">Pondok <span class="text-sky-500">Tahfidz</span> Abu dzar</h3>
+        <img src="img/unsplash.jpg" alt="" class="mt-4 rounded-xl shadow-xl">
+        <h2 class="mt-6 text-2xl font-semibold text-gray-800">belajar ngoding bersama abudzar</h2>
+        <p class="mt-2 text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti cupiditate, earum nemo quasi tenetur debitis nulla quae ratione rerum. Officia.</p>
+        <div class="mt-4">
+            <a href="#" class="bg-red-600 text-white rounded-lg shadow-lg font-semibold uppercase inline-block px-5 py-5 tracking-wider text-sm">subscribe Channel abu dzar</a>
+        </div>
+     </div>
+
+
+
+     <hr class="my-20 border-t-4">
+     <div class="container font-inter max-w-md mx-auto sm:bg-red-300 md:bg-transparent">
+        <h3 class="text-4xl font-bold text-slate-800">Pondok <span class="text-sky-500">Tahfidz</span> Abu dzar</h3>
+        <img src="img/unsplash.jpg" alt="" class="mt-4 rounded-xl shadow-xl">
+        <h2 class="mt-6 text-2xl font-semibold text-gray-800">belajar ngoding bersama abudzar</h2>
+        <p class="mt-2 text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti cupiditate, earum nemo quasi tenetur debitis nulla quae ratione rerum. Officia.</p>
+        <div class="mt-4">
+            <a href="#" class="bg-red-600 text-white rounded-lg shadow-lg font-semibold uppercase inline-block px-5 py-5 tracking-wider text-sm">subscribe Channel abu dzar</a>
+        </div>
+     </div>
+
+     
+     <hr class="my-20 border-t-4">
+     <div class="container font-inter max-w-md mx-auto sm:bg-red-300 md:bg-transparent">
+        <h3 class="text-4xl font-bold text-slate-800">Pondok <span class="text-sky-500">Tahfidz</span> Abu dzar</h3>
+        <img src="img/unsplash.jpg" alt="" class="mt-4 rounded-xl shadow-xl">
+        <h2 class="mt-6 text-2xl font-semibold text-gray-800">belajar ngoding bersama abudzar</h2>
+        <p class="mt-2 text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti cupiditate, earum nemo quasi tenetur debitis nulla quae ratione rerum. Officia.</p>
+        <div class="mt-4">
+            <a href="#" class="bg-red-600 text-white rounded-lg shadow-lg font-semibold uppercase inline-block px-5 py-5 tracking-wider text-sm">subscribe Channel abu dzar</a>
+        </div>
+     </div>
+
+
+     <hr class="my-20 border-t-4">
+     <div class="container font-inter max-w-md mx-auto sm:max-w-xl">
+        <h3 class="text-4xl font-bold text-slate-800 sm:text-5xl">Pondok <span class="text-sky-500">Tahfidz</span> Abu dzar</h3>
+        <img src="img/unsplash.jpg" alt="" class="mt-4 rounded-xl shadow-xl sm:mt-20 sm:h-64 sm:w-full sm:object-cover sm:object-center">
+        <h2 class="mt-6 text-2xl font-semibold text-gray-800 sm:text-4xl">belajar ngoding bersama abudzar</h2>
+        <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti cupiditate, earum nemo quasi tenetur debitis nulla quae ratione rerum. Officia.</p>
+        <div class="mt-4 sm:mt-24">
+            <a href="#" class="bg-red-600 text-white rounded-lg shadow-lg font-semibold uppercase inline-block px-5 py-5 tracking-wider text-sm sm:text-base">subscribe Channel abu dzar</a>
+        </div>
+     </div>
+
+
+
+     <hr class="my-20 border-t-4">
+     <div class="container font-inter max-w-md mx-auto sm:max-w-ml sm:max-w-5xl">
+        <h3 class="text-4xl font-bold text-slate-800 sm:text-5xl">Pondok <span class="text-sky-500">Tahfidz</span> Abu dzar</h3>
+        <img src="img/unsplash.jpg" alt="" class="mt-4 rounded-xl shadow-xl sm:mt-20 sm:h-64 sm:w-full sm:object-cover sm:object-center">
+        <h2 class="mt-6 text-2xl font-semibold text-gray-800 sm:text-4xl">belajar ngoding bersama abudzar</h2>
+        <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti cupiditate, earum nemo quasi tenetur debitis nulla quae ratione rerum. Officia.</p>
+        <div class="mt-4 sm:mt-24">
+            <a href="#" class="bg-red-600 text-white rounded-lg shadow-lg font-semibold uppercase inline-block px-5 py-5 tracking-wider text-sm sm:text-base">subscribe Channel abu dzar</a>
+        </div>
+     </div>
+
+     <hr class="my-10">
+     <h1 class="text-7xl text-center">About flex</h1>
+     <h2 class="text-5xl">flex basis</h2>
+     <h3 class="text-3xl">Basic flex basis</h3>
+     <div class="bg-slate-700 flex flex-row ">
+        <div class="basis-1/4 bg-blue-400">01</div>
+        <div class="basis-1/4 bg-blue-600">02</div>
+        <div class="basis-2/4 bg-blue-800">03</div>
+      </div>
+
+     <h3 class="text-3xl mt-5">flex basis psuedo class</h3>
+     <div class="bg-slate-700 flex flex-row ">
+        <div class="basis-1/4 bg-blue-400">01</div>
+        <div class="basis-1/4 bg-blue-600">02</div>
+        <div class="basis-1/4 bg-blue-800 hover:basis-1/2">03</div>
+      </div>
+
+     <h3 class="text-3xl mt-5">flex basis breakpoints</h3>
+     <div class="bg-slate-700 flex flex-row ">
+        <div class="basis-1/4 bg-blue-400">01</div>
+        <div class="basis-1/4 bg-blue-600">02</div>
+        <div class="basis-1/4 bg-blue-800 md:basis-1/2">03</div>
+      </div>
+
+
+
+      <h2 class="text-5xl mt-10">flex Direction</h2>
+      <h3 class="text-3xl">flex row</h3>
+      <div class="flex flex-row bg-slate-500">
+        <div class="bg-blue-400">01</div>
+        <div class="bg-blue-600">02</div>
+        <div class="bg-blue-800">03</div>
+      </div>
+
+      <h3 class="text-3xl">flex row reverse</h3>
+      <div class="flex flex-row-reverse bg-slate-500">
+        <div class="bg-blue-400">01</div>
+        <div class="bg-blue-600">02</div>
+        <div class="bg-blue-800">03</div>
+      </div>
+
+      <h3 class="text-3xl">flex col</h3>
+      <div class="flex flex-col bg-slate-500">
+        <div class="bg-blue-400">01</div>
+        <div class="bg-blue-600">02</div>
+        <div class="bg-blue-800">03</div>
+      </div>
+
+      <h3 class="text-3xl">flex col reverse</h3>
+      <div class="flex flex-col-reverse bg-slate-500">
+        <div class="bg-blue-400">01</div>
+        <div class="bg-blue-600">02</div>
+        <div class="bg-blue-800">03</div>
+      </div>
+
+      <h3 class="text-3xl">Psuedo row - col</h3>
+      <div class="flex flex-row bg-slate-500 hover:flex-col">
+        <div class="bg-blue-400">01</div>
+        <div class="bg-blue-600">02</div>
+        <div class="bg-blue-800">03</div>
+      </div>
+
+      <h3 class="text-3xl">Breakpoint col - row</h3>
+      <div class="flex flex-col bg-slate-500 md:flex-row">
+        <div class="bg-blue-400">01</div>
+        <div class="bg-blue-600">02</div>
+        <div class="bg-blue-800">03</div>
+      </div>
+
+      <h2 class="text-5xl mt-10">flax warp</h2>
+      <h3 class="text-3xl">flax don't warp</h3>
+      <div class="flex flex-row bg-slate-500">
+        <div class="bg-blue-400 w-44">01</div>
+        <div class="bg-blue-600 w-44">02</div>
+        <div class="bg-blue-800 w-44">03</div>
+      </div>
+
+      <h3 class="text-3xl">flax warp</h3>
+      <div class="flex flex-wrap bg-slate-500">
+        <div class="bg-blue-400 w-44">01</div>
+        <div class="bg-blue-600 w-44">02</div>
+        <div class="bg-blue-800 w-44">03</div>
+      </div>
+
+      <h3 class="text-3xl">flax warp psuedo</h3>
+      <div class="flex flex-wrap bg-slate-500 hover:flex-wrap-reverse">
+        <div class="bg-blue-400 w-44">01</div>
+        <div class="bg-blue-600 w-44">02</div>
+        <div class="bg-blue-800 w-44">03</div>
+      </div>
+
+      <h3 class="text-3xl">flax warp breakpoints</h3>
+      <div class="flex flex-wrap bg-slate-500 md:flex-wrap-reverse">
+        <div class="bg-blue-400 w-96">01</div>
+        <div class="bg-blue-600 w-96">02</div>
+        <div class="bg-blue-800 w-96">03</div>
+      </div>
+
+      <h2 class="text-5xl mt-10">flax</h2>
+      <h3 class="text-3xl">flax initial</h3>
+      <div class="bg-slate-500 flex">
+        <div class="bg-blue-400 w-14 h-14 flex-none">01</div>
+        <div class="bg-blue-600 w-64 flex-initial">02</div>
+        <div class="bg-blue-800 w-32 flex-initial">03</div>
+      </div>
+
+      <h3 class="text-3xl">flax 1</h3>
+      <div class="bg-slate-500 flex">
+        <div class="bg-blue-400 w-14 h-14 flex-none">01</div>
+        <div class="bg-blue-600 w-64 flex-1">02</div>
+        <div class="bg-blue-800 w-32 flex-1">03</div>
+      </div>
+
+      <h3 class="text-3xl">Auto</h3>
+      <div class="bg-slate-500 flex">
+        <div class="bg-blue-400 w-14 h-14 flex-none">01</div>
+        <div class="bg-blue-600 w-64 flex-auto">02</div>
+        <div class="bg-blue-800 w-32 flex-auto">03</div>
+      </div>
+
+      <h3 class="text-3xl">None</h3>
+      <div class="bg-slate-500 flex">
+        <div class="bg-blue-400 w-14 h-14 flex-none">01</div>
+        <div class="bg-blue-600 w-64 flex-none">02</div>
+        <div class="bg-blue-800 w-32 flex-1">03</div>
+      </div>
+
+      <h3 class="text-3xl">flex psuedo</h3>
+      <div class="bg-slate-500 flex">
+        <div class="bg-blue-400 w-14 h-14 flex-none hover:flex-1">01</div>
+        <div class="bg-blue-600 w-64 flex-none">02</div>
+        <div class="bg-blue-800 w-32 flex-1">03</div>
+      </div>
+
+      <h3 class="text-3xl">flex breakpoints</h3>
+      <div class="bg-slate-500 flex">
+        <div class="bg-blue-400 w-14 h-14 flex-none md:flex-1">01</div>
+        <div class="bg-blue-600 w-64 flex-none">02</div>
+        <div class="bg-blue-800 w-32 flex-1">03</div>
+      </div>
+
+
+      <hr class="mt-20">
+      <h1 class="text-5xl mb-10">Tugas#37</h1>
+
+      <div class="flex flex-col md:flex-row">
+        <div class="bg-slate-500 w-30 h-20 mb-5 text-center md:bg-blue-500 sm:w-40 ">gambar</div>
+        <div class="bg-slate-500 w-30 h-16 mb-5 text-center md:bg-blue-500 sm:w-40 ">Teks</div>
+        <div class="bg-slate-500 w-30 h-10 mb-5 text-center md:bg-blue-500 sm:w-40 ">Tombol</div>
+      </div>
+
+
+
+
+
+    <div class="mb-96 "></div>
+</body>
+</html>
